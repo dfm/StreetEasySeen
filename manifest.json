@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "StreetEasySeen",
+  "description": "",
+  "version": "1.0",
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://streeteasy.com/for-rent/*"
+      ],
+      "js": ["jquery-3.2.1.min.js", "content.js"]
+    }
+  ]
+}
