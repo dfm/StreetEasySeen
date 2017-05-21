@@ -1,3 +1,7 @@
+This is a *tiny* Chrome extension that keeps track of the NYC rental listings that you've
+already seen on StreetEasy and fades them slightly so that you don't need to keep wondering
+if they're worth looking at.
+
 To set up:
 
 1. Clone this repository,
